@@ -15,6 +15,7 @@ Você também pode instalar o NPM, que é um pacote gerenciador do Node.js.
 sudo apt-get install npm
 
 Finalmente, verifique a versão instalada. Basta executar:
+
 nodejs -v
 
 
