@@ -1,1 +1,23 @@
+Uma vez conectado atualize o cache APT. Para isto execute o comando:
 
+sudo apt-get update
+
+Dessa maneira certificamos que os repositórios estão sincronizados e o sistema pode baixar com segurança o que está armazenado nele.
+
+Após, instale o Node.js com o seguinte comando:
+
+sudo apt-get install nodejs
+
+Depois de inserir a senha, o processo de instalação será iniciado.
+
+Você também pode instalar o NPM, que é um pacote gerenciador do Node.js.
+
+sudo apt-get install npm
+
+Finalmente, verifique a versão instalada. Basta executar:
+nodejs -v
+
+
+Para excluir o Node.js é só executar o comando:
+
+sudo apt-get remove nodejs
