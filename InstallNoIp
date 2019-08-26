@@ -1,1 +1,27 @@
 
+https://www.noip.com/download?page=win
+
+
+
+ ▪ cd /usr/local/src
+ ▪ wget https://www.no-ip.com/client%2Flinux/noip-duc-linux.tar.gz
+ ▪ tar xzf noip-duc-linux.tar.gz
+ ▪ cd noip-2.1.9-1
+ ▪ make
+ ▪ make install
+
+ email
+ senha
+
+
+ Do you wish to have them all updated?[N] (y/N)  n
+Do you wish to have host [paulostore.ddns.net] updated?[N] (y/N)  y
+Do you wish to have host [tumba.sytes.net] updated?[N] (y/N)  y
+Do you wish to have host [servicos.webhop.me] updated?[N] (y/N)  y
+Please enter an update interval:[30]  5
+Do you wish to run something at successful update?[N] (y/N)  n
+
+New configuration file '/tmp/no-ip2.conf' created.
+
+mv /tmp/no-ip2.conf /usr/local/etc/no-ip2.conf
+paulo@paulo:/usr/local/bin/noip-2.1.9-1$ noip2
